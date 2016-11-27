@@ -98,9 +98,9 @@ body, html {
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   margin: 50px;
-  right: 5%;
+  left: 5%;
   bottom: 5%;
-  text-align: right;
+  text-align: left;
 }
 
 /* PHOTO SECTIONS */

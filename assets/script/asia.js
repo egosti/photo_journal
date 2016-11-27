@@ -29,7 +29,6 @@ $(document).ready(function() {
     }
   });
 
-
   $("#salzburg, #salzburg_cap").hover(function() {
     $("#salzburg").css("opacity", "0.6");
     $("#salzburg_cap").css("display", "block");
