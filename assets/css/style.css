@@ -79,17 +79,47 @@
 }
 
 @keyframes color-change {
-  from {
-    color: black;
-  } to {
-    color: blue;
+  0% {
+    color: #E79AAF;
+  } 15% {
+    color: #C1607A;
+  } 30% {
+    color: #669999;
+  } 45% {
+    color: #407F7F;
+  } 60% {
+    color: #F59D55;
+  } 75% {
+    color: #C1607A;
+  } 100% {
+    color: #E79AAF;
+  }
+}
+
+@keyframes color-change2 {
+  0% {
+    color: #C1607A;
+  } 15% {
+    color: #E79AAF;
+  } 30% {
+    color: #E79AAF;
+  } 45% {
+    color: #C1607A;
+  } 60% {
+    color: #669999;
+  } 75% {
+    color: #407F7F;
+  } 100% {
+    color: #F59D55;
   }
 }
 
 .eg-active {
-  color: black;
-  /*animation-name: color-change;
-  animation: 2s ease infinite;*/
+  animation: color-change 5s infinite;
+}
+
+.travel_journal-active {
+  animation: color-change2 5s infinite;
 }
 
 .eg-active:hover {

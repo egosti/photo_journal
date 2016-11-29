@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  // $("#travel_journal").append("TRAVEL PHOTO JOURNAL");
+
   $("#name, #travel_journal, #usa, #europe, #asia").hide();
 
   $("#name").delay(500).fadeIn(1000);
@@ -15,9 +17,11 @@ $(document).ready(function() {
   $("#name").click(function() {
     if ($("#name").hasClass("eg-active") == true) {
       $("#name").removeClass("eg-active");
+      $("#travel_journal").removeClass("travel_journal-active");
     }
     else {
       $("#name").addClass("eg-active");
+      $("#travel_journal").addClass("travel_journal-active");
     }
   });
 
